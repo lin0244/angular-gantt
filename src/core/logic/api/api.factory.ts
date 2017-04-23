@@ -2,8 +2,9 @@
 // MIT License
 // https://github.com/angular-ui/ng-grid/blob/v3.0.0-rc.20/src/js/core/factories/GridApi.js
 import angular from 'angular';
+import GanttUtilsService from '../util/utils.service';
 
-export default function ($q, $rootScope, ganttUtils) {
+export default function ($q, $rootScope, ganttUtils: GanttUtilsService) {
   'ngInject';
 
   /**

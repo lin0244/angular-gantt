@@ -1,6 +1,8 @@
 import moment from 'moment';
 
-export default function (ganttUtils) {
+import GanttUtilsService from '../util/utils.service';
+
+export default function (ganttUtils: GanttUtilsService) {
   'ngInject';
   let ObjectModel = function (api) {
     this.api = api;
